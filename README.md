@@ -1,42 +1,76 @@
-🍔 FastEats - Online Fast Food Ordering Platform
-📌 Introduction
+# FastEats - Online Fast Food Ordering Platform
+
+## 🌍 Introduction
+
 FastEats is a modern and user-friendly online platform designed to make fast food ordering seamless and efficient. Inspired by models like KFC’s digital ordering systems, FastEats enhances the user experience with added features, ensuring accessibility, convenience, and satisfaction for customers, employees, riders, and admins.
 
-🚀 Features & Functionalities
+## 🚀 Features & Functionalities
+
 FastEats includes a wide range of features tailored for each user type to enhance the overall ordering and service experience.
 
-🔐 Authentication
-Login: Secure login for Employees, Customers, Riders, and Admins.
+### 🔐 Authentication
 
-Sign Up: Quick and easy registration for new users (Employees, Customers, Riders).
+- **Login:** Secure login for Employees, Customers, Riders, and Admins.
+- **Sign Up:** Quick and easy registration for new users (Employees, Customers, Riders).
 
-🌟 Customer Experience
-Ratings & Feedback: Share feedback and rate your experience on food, delivery, and service.
+### 🌟 Customer Experience
 
-Add to Cart: Browse the menu and add multiple items to your cart before checkout.
+- **Menu:** Explore a diverse fast food menu—burgers, fried chicken, sides, drinks, and desserts.
+- **Add to Cart:** Browse the menu and add multiple items to your cart before checkout.
+- **Payment Methods:** Choose from credit/debit cards, mobile wallets, or cash on delivery.
+- **Pickup or Delivery:** Flexibility to pick up or have your food delivered.
+- **Ratings & Feedback:** Share feedback and rate your experience on food, delivery, and service.
+- **Reservations:** Reserve a table or schedule a pickup at a preferred branch.
+- **Deals & Promotions:** Access ongoing offers, combos, and time-limited deals.
+- **Add-Ons:** Customize orders with extra toppings, sauces, or sides.
 
-Rewards/Discounts/Vouchers: Enjoy loyalty rewards and special promotions.
+## 🎯 How to Run the Project
 
-Reservations: Reserve a table or schedule a pickup at a preferred branch.
+### 1. Install Required Packages
 
-Branch Locator: Find nearby FastEats branches with contact and operational details.
+Make sure you have Node.js and a database (SQL Server Management Studio) set up.
+Install project dependencies:
 
-Payment Methods: Choose from credit/debit cards, mobile wallets, or cash on delivery.
+```bash
+npm install
+```
 
-Pickup or Delivery: Flexibility to pick up or have your food delivered.
+### 2. Start the Project
 
-Menu: Explore a diverse fast food menu—burgers, fried chicken, sides, drinks, and desserts.
+Run the `login.js` file first through VS Code:
 
-Deals & Promotions: Access ongoing offers, combos, and time-limited deals.
+```bash
+Go Live
+```
 
-Add-Ons: Customize orders with extra toppings, sauces, or sides.
+This will start the authentication system where you can:
 
-🛠️ Additional Features (Optional/Extras)
-Profile Management: Update personal info, preferences, and profile pictures.
+- **Login** if you already have an account.
+- **Sign Up** if you are a new user (Employee, Customer, Rider).
 
-Rider Chat: Direct messaging system between users and riders.
+The credentials and user data will be saved into the database.
 
-Order Tracking: Real-time tracking from order placement to delivery.
+### 3. Order Food
 
-🎯 Conclusion
+- Browse the **Menu**.
+- **Add Items** to the **Cart**.
+- Once you're ready, **Go to Cart** and review your order.
+
+### 4. Payment
+
+- Choose your **Payment Method** (Credit/Debit Card, Mobile Wallet, or Cash on Delivery).
+- Confirm the order.
+
+### 5. Tracking and Feedback
+
+- Use **Order Tracking** to monitor your order status.
+- After delivery, provide **Ratings & Feedback** on your experience.
+
+## 🎉 Conclusion
+
 FastEats is built with a vision to revolutionize the fast food ordering landscape by offering a rich set of features and a smooth user experience. Whether you're craving burgers or scheduling a pickup, FastEats is your go-to destination for fast, reliable, and tasty service.
+
+---
+
+Happy Ordering with **FastEats**! 🍔🍟
+
