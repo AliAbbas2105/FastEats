@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Management</title>
+<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="profile-info">
+      <h2>Name</h2>
+      <p id="email">Email: <a href="#" id="emailLink">example@email.com</a></p>
+      <p id="phone">Phone: <a href="#" id="phoneLink">+1234567890</a></p>
+    </div>
+    <br>
+    <div class="menu">
+      <a href="#" class="menu-item">
+        <div class="block red">
+          <span>Rewards</span>
+        </div>
+      </a>
+      <a href="#" class="menu-item">
+        <div class="block red">
+          <span>Vouchers</span>
+        </div>
+      </a>
+      <a href="#" class="menu-item">
+        <div class="block red">
+          <span>Track Your Order</span>
+        </div>
+      </a>
+      <a href="#" class="menu-item">
+        <div class="block red">
+          <span>Reservations</span>
+        </div>
+      </a>
+      <a href="#" class="menu-item">
+        <div class="block red">
+          <span>Logout</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Email Update Form -->
+  <div id="emailUpdateForm" class="update-form" style="display: none;">
+    <h3>Update Email</h3>
+    <form id="emailForm">
+      <input type="email" id="newEmail" placeholder="Enter new email">
+      <button type="submit">Update Email</button>
+    </form>
+  </div>
+
+  <!-- Phone Number Update Form -->
+  <div id="phoneUpdateForm" class="update-form" style="display: none;">
+    <h3>Update Phone Number</h3>
+    <form id="phoneForm">
+      <input type="tel" id="newPhone" placeholder="Enter new phone number">
+      <button type="submit">Update Phone Number</button>
+    </form>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
